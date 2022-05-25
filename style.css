@@ -182,7 +182,7 @@ header .navbar ul li:hover a:after{
 }
 
 .box-container .box:hover .info .title{
-    color: rgb(158, 54, 153);
+    color: rgb(235,52,94);
     transition: 0.25s;
 }
 
