@@ -17,15 +17,14 @@
 
 
     <header>
-        <a href="#" class="logo">Logo</a>
+         <a href="#accueil" class="logo"> <img src="img/logo_transparent.png"> </a> 
 
         <nav class="navbar">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Orthoptie</a></li>
-                <li><a href="#">Bilans</a></li>
-                <li><a href="#">Réeducation</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#orthoptie">Orthoptie</a></li>
+                <li><a href="#bilan">Bilans</a></li>
+                <li><a href="#reeducation">Réeducations</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -38,7 +37,7 @@
 
     <article>
         <section>
-            <div class="box-container">
+            <div class="box-container" id="accueil">
                 <div class="box">
                     <img src="img/Fille.jpg" alt="">  
                     <div class="info">
@@ -66,7 +65,7 @@
 
 
         <section>
-            <div class="box-container2">
+            <div class="box-container2" id="orthoptie">
                 <div class="box2">
                     <h2 class="titleortho">À Propos</h2> <br>
                 </div> 
@@ -95,7 +94,7 @@
 ***********************************************************************************************************************************-->
         
                     <section>
-                        <div class="box-container3com">
+                        <div class="box-container3com" id="bilan">
                             <p> Nos Bilans </p>
                         <div class="box-container3">
                             <div class="container-card3">
@@ -146,6 +145,9 @@
                     </div>
                     </section>
 
+                    <!-- <section class="containerwave">
+                        <div class="wave"></div>
+                      </section> -->
 
 <!-- *********************************************************************************************************************************
 *******************************************************   NOS REEDUCATIONS    ********************************************************
@@ -153,11 +155,11 @@
 
 
                     <section>
-                        <div class="box-container4com">
+                        <div class="box-container4com" id="reeducation">
                             <p> Nos Réeducations </p>
                         <div class="box-container4">
                             <div class="container-card4">
-                                <div class="container-box4">
+                                <div class="container-box4" id="optic1">
                                     <div class="container-content4">
                                         <h2>01</h2>
                                         <h3>Insuffisance de convergence</h3>
@@ -168,7 +170,7 @@
                                 </div>
                             </div>
                             <div class="container-card4">
-                                <div class="container-box4">
+                                <div class="container-box4" id="optic2">
                                     <div class="container-content4">
                                         <h2>02</h2>
                                         <h3>Strabisme</h3>
@@ -179,7 +181,7 @@
                                 </div>
                             </div>
                             <div class="container-card4">
-                                <div class="container-box4">
+                                <div class="container-box4" id="optic3">
                                     <div class="container-content4">
                                         <h2>03</h2>
                                         <h3>Amblyopie</h3>
@@ -190,7 +192,7 @@
                                 </div>
                             </div>
                             <div class="container-card4">
-                                <div class="container-box4">
+                                <div class="container-box4" id="optic4">
                                     <div class="container-content4">
                                         <h2>04</h2>
                                         <h3>Foncitonnelle : Neurovisuel, troubles des apprentissages</h3>
@@ -201,7 +203,7 @@
                                 </div>
                             </div>
                             <div class="container-card4">
-                                <div class="container-box4">
+                                <div class="container-box4" id="optic5">
                                     <div class="container-content4">
                                         <h2>05</h2>
                                         <h3>Deficience visuelle : Basse vision</h3>
@@ -223,11 +225,14 @@
                     <div class="pimg1">
                     </div>
 
+<!-- *********************************************************************************************************************************
+**********************************************************   CAROUSSEL   *************************************************************
+***********************************************************************************************************************************-->
 
                     <section class="slider">
                        
 
-                        <div class="slider2">
+                        <div class="slider2" id="contact">
 
                             <input type="radio" name="slider" id ="s1" checked>
                             <input type="radio" name="slider" id ="s2">
@@ -270,14 +275,84 @@
                                 </p>
                             </label>
                         </div>
+                    </section>
+
+<!-- *********************************************************************************************************************************
+**********************************************************   CONTACT    **************************************************************
+***********************************************************************************************************************************-->
+
+
+                    
+
+                    <section>
+                        <div class="box-container5com">
+                            <section class="curved">
+                            </section>
+                            <h2>Nous contacter</h2>
+                            
+                            <div class="box-container5">
+                                <div class="box-card5">
+                                    <div class="box-content5">
+                                        <h3>Camille Parage</h3>
+                                        <p>Mail : Mail@gmail.com</p>
+                                        <p>Telephone : 01 23 45 67 89</p>
+                                        <p>Cabinet : Adresse Cabinet</p>                               
+                                     </div>
+                                </div>                                
+
+                                <div class="box-frame5">
+                                    <div class="box-content5" id="iframe">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10247.129420525094!2d1.4180359!3d50.0529083!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6bb001db73e410f5!2sThorel%20Clemence!5e0!3m2!1sfr!2sfr!4v1654161367173!5m2!1sfr!2sfr"
+                                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    </div>
+                                </div>
+
+                                <div class="box-card5">
+                                    <div class="box-content5">
+                                        <h3>Clemence Thorel</h3>
+                                        <p>Mail : Mail@gmail.com</p>
+                                        <p>Telephone : 01 23 45 67 89</p>
+                                        <p>Cabinet : Adresse Cabinet</p>
+
+                                    </div>
+                                </div>    
+
+
+                        
+                        
+                        
+                        
+                
+                            </div>
+                        </div>
+
 
 
                     </section>
+
+<section>
+
+
+    <section class="curvedfooter">
+        
+    </section>
+        <div class="footer">
+            <a href="https://github.com/FlorianPtf">Florian Ptf © | All Rights Reserved</a>
+        </div>
+
+</section>
+
+
+
+            
 
 </article>
 
     <script src="https://kit.fontawesome.com/c1bbff1c35.js" crossorigin="anonymous"></script>
     <script src="javascript.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="jquery.js"></script>
+
 
 </body>
 </html>

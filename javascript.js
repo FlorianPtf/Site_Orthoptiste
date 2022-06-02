@@ -25,7 +25,7 @@ autoslide = setInterval(function(){
         counter = 1;
         
     }
-}, 2000); }
+}, 3000); }
 
 repeatslide();
 
@@ -36,4 +36,7 @@ slider.addEventListener("mouseover", () => {
 slider.addEventListener("mouseout", () => {
     repeatslide();
 })
+
+
+
 
