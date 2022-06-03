@@ -73,6 +73,7 @@ header{
     align-items: center;
     justify-content: space-around;
     z-index: 100;
+    box-shadow: 0 5px 60px rgba(0,0,0,0.5);
 }
 
 header .logo img{
@@ -128,102 +129,17 @@ header .navbar ul li:hover a:after{
 }
 
 /***********************************************************************************************************************************
-*****************************************************   CARD DETAILS    ************************************************************
-***********************************************************************************************************************************/
-
-.box-container{   
-    min-height: 100vh;
-    overflow: hidden;
-    background-size: cover;
-    background-position: fixed;
-    background-image: radial-gradient(rgba(255, 255, 255, 0.2), rgba(0, 122, 143, 0.2)), url("img/bg_ortho1.jpg");    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.box-container .box{
-    height: 700px;
-    width: 480px;
-    border: 8px solid rgb(128, 128, 128);
-    box-shadow: 0 10px 10px black;
-    overflow: hidden;
-    margin: 2%;
-    animation: transitioncardin 1500ms ease-in-out;
-}
-
-.box-container .box:hover{
-    border: 8px solid rgb(235,52,94);
-}
-
-.box-container .box img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    filter: grayscale();
-}
-
-.box-container .box:hover img{
-    filter: grayscale(0%);
-    transform: scale(1.1);
-    transition: 0.5s ease-in-out;
-}
-
-
-.box-container .box .info{
-    text-align: center;
-    background-color: white;
-    position: relative;
-    bottom: 50px;
-    height: 100%;
-    width: 100%;
-}
-
-.box-container .box:hover .info{
-    bottom: 220px;
-    transition: 0.5s ease-in-out;
-
-}
-
-.box-container .box .info .title{
-    padding: 10px 0;
-    font-size: 20px;
-    color: rgb(39, 39, 39);
-    text-transform: capitalize;
-    font-size: 24px;
-}
-
-.box-container .box:hover .info .title{
-    color: rgb(235,52,94);
-    transition: 0.25s;
-}
-
-
-.box-container .box .info .post{
-    font-size: 15px;
-    color: rgb(128, 128, 128);
-    font-size: 22px;
-
-}
-
-/***********************************************************************************************************************************
 ***********************************************   DESCRIPTION ORTHOPTIE    *********************************************************
 ***********************************************************************************************************************************/
 
 .box-container2{
     height: 100vh;
-    border-top: 20px solid;
-    border-image: linear-gradient(90deg, rgba(158, 54, 153) 0%,rgba(0,132,191,1)  100%) 1;
-    background: url(img/stylo_ortho.jpg);
-    background-repeat: no-repeat;
-    background-position: 50% 100%;
 }
 
 .box-container2 .box2 .titleortho{
     display: flex;
     justify-content: center;
-    margin-top: 2%;
-    font-size: 64px;
+    font-size: 54px;
     font-weight: 700;
     color: rgb(158, 54, 153);
 }
@@ -259,6 +175,88 @@ header .navbar ul li:hover a:after{
     font-size: 16px;
     margin-bottom: 2%;
 }
+
+
+/***********************************************************************************************************************************
+*****************************************************   CARD DETAILS    ************************************************************
+***********************************************************************************************************************************/
+
+
+/* .box-container{   
+    min-height: 100vh;
+    overflow: hidden;
+    background-size: cover;
+    background-position: fixed;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.2), rgba(0, 122, 143, 0.2)), url("img/bg_ortho1.jpg");    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 20px solid;
+    border-image: linear-gradient(90deg, rgba(158, 54, 153) 0%,rgba(0,132,191,1)  100%) 1;
+} */
+
+.box{
+    height: 420px;
+    width: 320px;
+    border: 8px solid rgb(128, 128, 128);
+    box-shadow: 0 10px 10px black;
+    overflow: hidden;
+    margin: 2%;
+    animation: transitioncardin 1500ms ease-in-out;
+}
+
+.box:hover{
+    border: 8px solid rgb(235,52,94);
+}
+
+.box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: grayscale();
+}
+
+.box:hover img{
+    filter: grayscale(0%);
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.box .info{
+    text-align: center;
+    background-color: white;
+    position: relative;
+    bottom: 50px;
+    height: 100%;
+    width: 100%;
+}
+
+.box:hover .info{
+    bottom: 220px;
+    transition: 0.5s ease-in-out;
+}
+
+.box .info .title{
+    padding: 10px 0;
+    font-size: 20px;
+    color: rgb(39, 39, 39);
+    text-transform: capitalize;
+    font-size: 24px;
+}
+
+.box:hover .info .title{
+    color: rgb(235,52,94);
+    transition: 0.25s;
+}
+
+
+.box .info .post{
+    font-size: 15px;
+    color: rgb(128, 128, 128);
+    font-size: 22px;
+}
+
+
 
 
 /***********************************************************************************************************************************
